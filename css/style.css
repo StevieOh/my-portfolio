@@ -1,0 +1,11 @@
+header{
+  background: top center no-repeat;
+  background-image: url("https://wallpaperbits.com/wp-content/uploads/2018/01/space-nasa-wallpaper-229310.jpg");
+  height: 150px;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+.fa {
+  color: white;
+}
