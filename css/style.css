@@ -1,14 +1,36 @@
 header{
-  background: top center no-repeat;
+  /*background: top center no-repeat;*/
   margin: 20px;
-  background-image: url("https://wallpaperbits.com/wp-content/uploads/2018/01/space-nasa-wallpaper-229310.jpg");
-  height: 150px;
-  padding: 40px;
-  text-align: center;
+  z-index: 2;
+  /*background-color: rgba(255, 255, 255, 0.25);*/
+  /*background-image: url("https://wallpaperbits.com/wp-content/uploads/2018/01/space-nasa-wallpaper-229310.jpg");*/
+  height: 150px auto;
+/*  padding: 40px;*/
+  /*text-align: center;*/
   color: white;
   font-family: 'Great Vibes', cursive;
 }
-
+body{
+  background-image: url("https://apod.nasa.gov/apod/image/1212/M33-Subaru-Gendler-LL.jpg");
+  z-index: -1;
+}
+#home-links{
+  display: inline-flex;
+  justify-content: flex-start;
+}
+#name{
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  margin-top: 40px;
+}
+#contact-me{
+  font-size: 25px;
+  display: inline-flex;
+  justify-content: flex-end;
+  display: flex;
+  /*margin-right: -150px;*/
+}
 
 li{
   display: inline-flex;
@@ -29,20 +51,21 @@ a:visited {
 a:hover {
     font-family: 'Calligraffitti', cursive;
 }
-h1{
-  font-size: 200px;
-}
+
 h3{
   text-align: center;
+  text-shadow: 2px 2px #000000;
 }
-nav{
+/*nav{
   font-size: 25px;
   display: flex;
-  align-content: center;
-  padding-top: 10px;
-}
+  justify-content: flex-end;
+  /*align-content: center;*/
+ /* padding-top: 10px;*/
+/*}*/
 body{
   margin-left: -200;
+
 }
 
 .fa {
@@ -52,20 +75,26 @@ body{
 .intro {
   text-align: center;
   font-family: 'Great Vibes', cursive;
+  color: white;
 }
 #projects{
   margin:  30px;
   padding: 40px;
   border: 1px solid black;
+  background-color: rgba(255, 255, 255, 0.25);
+  color: white;
 }
 #project1{
   margin: 5px;
   padding: 20px;
   border: 1px solid black;
   height: auto;
+  background-color: white;
+
 }
 #project1-text{
   border: 1px solid black;
+  color: black;
 }
 
 #project2{
@@ -73,9 +102,11 @@ body{
   padding: 20px;
   border: 1px solid black;
   height: auto;
+  background-color: white;
 }
 #project2-text{
   border: 1px solid black;
+  color: black
 }
 #project2-image{
   max-width: 100%;
@@ -86,33 +117,40 @@ body{
   padding: 20px;
   border: 1px solid black;
   height: auto;
+  background-color: white;
 }
 #project3-text{
   border: 1px solid black;
+  color: black;
 }
 #project4{
   margin: 5px;
   padding: 20px;
   border: 1px solid black;
   height: auto;
+  background-color: white;
 }
 #project4-text{
   border: 1px solid black;
+  color: black;
 }
 #projectf{
   margin: 5px;
   padding: 20px;
   border: 1px solid black;
   height: auto;
+  background-color: white;
 }
 #projectf-text{
   border: 1px solid black;
+  color: black;
 
 }
 #project-text{
   color: black;
   display: flex;
   justify-content: space-around;
+  color: black;
 }
 
 #skills{
@@ -121,6 +159,7 @@ body{
   border: 1px solid black;
   display: flex;
   justify-content: center;
+  background-color: white;
 }
 
 .dev-icons{
@@ -135,9 +174,11 @@ body{
 }
 
 footer{
-  background: top center no-repeat;
+  /*background: top center no-repeat;*/
+  /*background-image: url("https://wallpaperbits.com/wp-content/uploads/2018/01/space-nasa-wallpaper-229310.jpg");*/
+  background-color: rgba(255, 255, 255, 0.25);
+  border: 1px solid black;
   margin: 20px;
-  background-image: url("https://wallpaperbits.com/wp-content/uploads/2018/01/space-nasa-wallpaper-229310.jpg");
   height: 50px;
   padding: 20px;
   text-align: center;
