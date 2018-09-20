@@ -154,9 +154,13 @@ body{
   margin: 20px;
   padding: 20px;
   border: 1px solid black;
-  display: flex;
-  justify-content: center;
+  /*display: flex;
+  justify-content: center;*/
   background-color: white;
+}
+#skill-sprites{
+  display: flex;
+  justify-content: space-between;
 }
 
 .dev-icons{
@@ -181,6 +185,7 @@ footer{
 #footer-links{
   display: inline-flex;
   justify-content: center;
+  align-content: center;
   padding: 0;
   list-style: none;
   font-size: 5px;
