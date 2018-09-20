@@ -13,6 +13,12 @@ body{
   display: inline-flex;
   justify-content: flex-start;
 }
+.ga-sprite{
+  height: 30px;
+  width: 30px;
+  margin-right: 15px;
+  margin-top: -5px;
+}
 #name{
   display: flex;
   justify-content: center;
